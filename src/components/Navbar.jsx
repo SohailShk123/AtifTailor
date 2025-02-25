@@ -6,7 +6,7 @@ function Navbar() {
   const [open, setOpen] = useState(false);
   
   return (
-    <nav className="bg-gray-800 text-white">
+    <nav className="bg-gray-800 text-white shadow-xl">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between">
           <div className="flex space-x-4">
